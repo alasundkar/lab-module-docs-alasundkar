@@ -9,14 +9,16 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+This implementation of CDA will start application. Test given test cases and after successful testing it will stop application.
 
 How does your implementation work?
+It will create an object of ConstrainedDeviceApp and then it will start app. Then wait for 60 Sec. and it will stop the app.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/programming-the-iot/python-components/tree/alpha001
 
 ### UML Design Diagram(s)
 
@@ -42,8 +44,6 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- ConstrainedDeviceAppTest
 
 EOF.
