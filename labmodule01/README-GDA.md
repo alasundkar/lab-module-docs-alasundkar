@@ -10,19 +10,25 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+This implementation of GDA will start application. wait for 60sec Test given test cases and after successful testing it will stop application.
+
+
 How does your implementation work?
+It will create an object of GatewayDeviceApp and then it will start app. Then wait for 60 Sec. and it will stop the app.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/programming-the-iot/python-components/tree/alpha001
 
 ### UML Design Diagram(s)
 
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+
+![Image of GDA-LAB01](GatewayDeviceUML.png)
 
 
 ### Unit Tests Executed
@@ -31,9 +37,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- programmingtheiot.part01.unit.common.ConfigUtilTest.java
 
 ### Integration Tests Executed
 
@@ -42,8 +46,6 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- programmingtheiot.part01.integration.app.GatewayDeviceAppTest.java 
 
 EOF.
