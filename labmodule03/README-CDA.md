@@ -12,6 +12,8 @@ What does your implementation do?
 measuring and modeling the data generate as part of a simple sensor and actuator simulation environment build for the CDA. The generated data will represent a small environmental sensors, and process simple threshold crossings to trigger simulated actuation events
 
 How does your implementation work?
+ It will create an object of ConstrainedDeviceApp which has objecct of DeviceDataManager. DeviceDataManager will get data metrics from SensorAdapterManager, emPerformanceManager, and AtuatorAdapterManager. 
+Then it will start app.Then DeviceDataManager call SystemPerformanceManager ,SystemPerformanceManager, AtuatorAdapterManager`  which will eventurally get metrics from SystemCpuUtilTask and SystemMemUtilTask.
 
 ### Code Repository and Branch
 
