@@ -1,8 +1,8 @@
 # Constrained Device Application (Connected Devices)
 
-## Lab Module 03
+## Lab Module 04
 
-Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-INF-03-001 - Lab Module 03](https://github.com/orgs/programming-the-iot/projects/1#column-10488379).
+Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-INF-04-001 - Lab Module 04](https://github.com/orgs/programming-the-iot/projects/1#column-10488379).
 
 ### Description
 
@@ -38,6 +38,10 @@ since you need to ensure you haven't introduced regressions.
 - src/test/python/programmingtheiot/part02/unit/sim/HvacActuatorSimTaskTest.py
 - src/test/python/programmingtheiot/part02/unit/sim/HumidifierActuatorSimTaskTest.py
 - src/test/python/programmingtheiot/part02/unit/sim/PressureSensorSimTaskTest.py- src/test/python/programmingtheiot/part02/unit/sim/TemperatureSensorSimTaskTest.py
+- src/test/python/programmingtheiot/part02/unit/data/ActuatorDataTest.py
+- src/test/python/programmingtheiot/part02/unit/data/SensorDataTest.py
+- src/test/python/programmingtheiot/part02/unit/data/BaseIotDataTest.py
+- src/test/python/programmingtheiot/part02/unit/data/SystemPerformanceDataTest.py
 
 ### Integration Tests Executed
 
@@ -46,10 +50,15 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- src/test/python/programmingtheiot/part02/integration/app/DeviceDataManagerNoCommsTest.py
+
 - src/test/python/programmingtheiot/part02/integration/system/ActuatorAdapterManagerTest.py
-- src/test/python/programmingtheiot/part02/integration/system/SensorAdapterManagerTest.py
-- src/test/python/programmingtheiot/part01/integration/app/ConstrainedDeviceAppTest.py
- 
+- src/test/python/programmingtheiot/part02/integration/system/SensorAdapterManagerTest.py 
+- src/test/python/programmingtheiot/part02/integration/emulated/ActuatorEmulatorManagerTest.py
+- src/test/python/programmingtheiot/part02/integration/emulated/HumidifierEmulatorTaskTest.py
+- src/test/python/programmingtheiot/part02/integration/emulated/HvacEmulatorManagerTest.py
+- src/test/python/programmingtheiot/part02/integration/emulated/SenseHatEmulatorManagerTest.py
+- src/test/python/programmingtheiot/part02/integration/emulated/LedDiaplayEmulatorManagerTest.py
+- src/test/python/programmingtheiot/part02/integration/emulated/SensorEmulatorManagerTest.py
+
 
 EOF.
