@@ -9,16 +9,21 @@ Be sure to implement all the PIOT-GDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+use a DeviceDataManager to orchestrate the information flow within the application, and a new component is added – DataUtil – to provide a centralized data translation utility for converting the GDA’s data container objects into a format that other systems can readily consume
+
 
 How does your implementation work?
+e wll create RedisPersistenceAdapter and integrate with DeviceDataManager. Configure redis with GDA.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/NU-CSYE6530/cda-lab-modules-alasundkar/tree/labmodule05 
 
 ### UML Design Diagram(s)
+
+![Image of GDA-LAB05](gda.png)
 
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
