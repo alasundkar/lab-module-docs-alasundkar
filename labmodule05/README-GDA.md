@@ -19,8 +19,7 @@ e wll create RedisPersistenceAdapter and integrate with DeviceDataManager. Confi
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/NU-CSYE6530/cda-lab-modules-alasundkar/tree/labmodule05 
-
+URL: https://github.com/NU-CSYE6530/gda-lab-modules-alasundkar/tree/labmodule05
 ### UML Design Diagram(s)
 
 ![Image of GDA-LAB05](gda.png)
