@@ -46,5 +46,5 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - src/test/java/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.java
 - 
 
-![Image of GDA-LAB07](mqqt.png)
+![Image of GDA-LAB07](mqtt.png)
 EOF.
