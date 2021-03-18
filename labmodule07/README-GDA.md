@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/NU-CSYE6530/gda-lab-modules-alasundkar/tree/labmodule07
 
 ### UML Design Diagram(s)
 
@@ -42,8 +42,9 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
+- src/test/java/programmingtheiot/part03/integration/app/DeviceDataManagerWithCommsTest.java 
+- src/test/java/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.java
 - 
 
+![Image of GDA-LAB07](mqqt.png)
 EOF.
