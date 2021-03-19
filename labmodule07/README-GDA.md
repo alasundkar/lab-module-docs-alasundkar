@@ -48,5 +48,14 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - src/test/java/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.java
 - 
 
-![Image of GDA-LAB07](mqtt.png)
+![Image of GDA-LAB07](mqtt1.png)
+![Image of GDA-LAB07](mqtt2.png)
+![Image of GDA-LAB07](mqtt3.png)
+![Image of GDA-LAB07](mqtt4.png)
+![Image of GDA-LAB07](mqtt5.png)
+![Image of GDA-LAB07](mqtt6.png)
+![Image of GDA-LAB07](mqtt7.png)
+![Image of GDA-LAB07](mqtt8.png)
+![Image of GDA-LAB07](mqtt9.png)
+![Image of GDA-LAB07](mqtt10.png)
 EOF.
