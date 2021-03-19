@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-GDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+implement communication between server and client using mqtt protocol.
 
 How does your implementation work?
+create methods which will create topic. use that topic to subscribe/unsubscribe or publilsh message using mqtt protocol.
 
 ### Code Repository and Branch
 
