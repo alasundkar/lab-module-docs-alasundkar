@@ -46,4 +46,19 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
  
 
 ![Image of CDA-LAB06](mqtt.png)
+
+![Image of CDA-LAB06](mqtt1.png)
+![Image of CDA-LAB06](mqtt2.png)
+![Image of CDA-LAB06](mqtt3.png)
+![Image of CDA-LAB06](mqtt4.png)
+![Image of CDA-LAB06](mqtt5.png)
+![Image of CDA-LAB06](mqtt6.png)
+![Image of CDA-LAB06](mqtt7.png)
+![Image of CDA-LAB06](mqtt8.png)
+![Image of CDA-LAB06](mqtt10.png)
+![Image of CDA-LAB06](mqtt11.png)
+![Image of CDA-LAB06](mqtt12.png)
+![Image of CDA-LAB06](mqtt13.png)
+![Image of CDA-LAB06](mqtt14.png)
+![Image of CDA-LAB06](mqtt15.png)
 EOF.
