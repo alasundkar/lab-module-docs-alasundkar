@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Integrate CoAP client functionality into  GDA, so it can communicate with the GDA’s CoAP server.
 
 How does your implementation work?
+Integrate CoAPClientConnector class with DeviceDataManager and this client will communicate with GDA CoAP server. 
 
 ### Code Repository and Branch
 
@@ -24,7 +26,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-
+![Image of CDA-LAB09](cda.png)
 ### Unit Tests Executed
 
 NOTE: TA's will execute your unit tests. You only need to list each test case below
@@ -42,7 +44,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
+-src/test/python/programmingtheiot/part03/integration/connection/CoapClientConnectorTest.py 
 - 
 - 
 
