@@ -18,7 +18,7 @@ We will build CoAPServerGateway class which will use CoAP protocol/library and i
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/NU-CSYE6530/gda-lab-modules-alasundkar/tree/labmodule08 
 
 ### UML Design Diagram(s)
 
