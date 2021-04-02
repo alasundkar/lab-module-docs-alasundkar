@@ -29,7 +29,7 @@ Write 1 to 2 paragraphs describing your diagram.
 
 Include a high-level design diagram depicting your planned technical approach - it does not need to be final, but it must include the CDA, GDA, and cloud services you plan to use, as well as the protocol(s) you will use for communicating between the devices and the cloud.
 
- ![CDADIAGRAM](Final_Project_Proposal.PNG) 
+ ![CDADIAGRAM](Final_Project_Proposal.png) 
 Ans:
 @ By using Sense hat emulator can generate temp, pressure, humidity data which is vital in home automation
 @ Redis database can be used to store this data and this collected data will be sent to Gateway Device Adapter.
