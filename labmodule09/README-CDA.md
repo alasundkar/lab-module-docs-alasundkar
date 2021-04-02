@@ -18,7 +18,7 @@ Integrate CoAPClientConnector class with DeviceDataManager and this client will 
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/NU-CSYE6530/cda-lab-modules-alasundkar/tree/labmodule09 
 
 ### UML Design Diagram(s)
 
