@@ -9,14 +9,17 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+it will encrypt communication with mqtt protocol.
 
 How does your implementation work?
+mqttclientconnector will use tls encryption for mqtt protocol provided by local server.
+and it will create communication between CDA and GDA. 
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/NU-CSYE6530/cda-lab-modules-alasundkar/tree/labmodule10 
 
 ### UML Design Diagram(s)
 
@@ -24,7 +27,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-
+![Image of CDA-LAB10](cda.png)
 ### Unit Tests Executed
 
 NOTE: TA's will execute your unit tests. You only need to list each test case below
@@ -42,8 +45,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- src/test/python/programmingtheiot/part03/integration/connection/MqttClientConnectorTest.py
+- src/test/python/programmingtheiot/part03/integration/app/DeviceDataManagerCallbackTest.py
+- src/test/python/programmingtheiot/part03/integration/app/DeviceDataManagerIntegrationTest.py
 
 EOF.
