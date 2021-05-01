@@ -50,7 +50,7 @@ Write 1 to 2 paragraphs describing your design.
 
 ### What ONE (1) CDA protocol and TWO (2) GDA protocols did you implement (add more if you wish)?
 
-- CDA to GDA Protocol: MQTT with TLS encryption
+- CDA to GDA Protocol: MQTT 
 
 - GDA to Cloud Protocol: MQTT with TLS encryption
 
@@ -67,8 +67,8 @@ Write 1 to 2 paragraphs describing your design.
 
 ## Screen Shots Representing Cloud Services
 
-![CLOUD](tempsensor_timeseries_data.PNG) 
-![CLOUD](CDA_ubidots_data.PNG)
+![CLOUD](tempsensor_timeseries_data.png) 
+![CLOUD](CDA_ubidots_data.png)
 
 ### Screen Shots Representing Visualized Data
 
@@ -76,7 +76,7 @@ NOTE: Include (at least) TWO (2) screen shots - one showing at least 1 hour
 of time-series data from the CDA, and one showing an event being triggered
 that results in an actuation event sent to your GDA and then to your CDA.
 
-![VISUALIZEDDATA](ubidots_dashboard.PNG) 
+![VISUALIZEDDATA](ubidots_dashboard.png) 
 
 EOF.
 
